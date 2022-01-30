@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dongle", sans-serif;
+  font-size: 1.8rem;
+  background-color:whitesmoke;
+  transition: 0.3s all ease;
+}
+
+.sevenSeg {
+  position: relative;
+  border: 3px solid black;
+  border-radius: 7px;
+  height: 500px;
+  width: 500px;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+#a,
+#g,
+#d,
+#b,
+#f,
+#c,
+#e,
+#h {
+  background-color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+  font-size: 0;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#a,
+#g,
+#d {
+  height: 30px;
+  width: 120px;
+}
+
+#b,
+#f,
+#c,
+#e {
+  height: 150px;
+  width: 30px;
+}
+
+#a {
+  top: 60px;
+}
+#g {
+  top: 220px;
+}
+#d {
+  top: 380px;
+}
+#b {
+  top: 80px;
+  left: 160px;
+}
+#f {
+  top: 80px;
+  right: 160px;
+}
+#c {
+  top: 240px;
+  left: 160px;
+}
+#e {
+  top: 240px;
+  right: 160px;
+}
+
+#h {
+  font-size: 0;
+  border: 2px solid black;
+  left: 180px;
+  bottom: 70px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.display {
+  border: 10px double black;
+  border-radius: 7px;
+  padding: 5px 0px;
+  width: 490px;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#reset{
+  position: relative;
+}
+
+#r_btn{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 0px;
+  font-size: 0px;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 7%;
+  box-shadow: inset 0px -5px 10px 0.2px rgba(0, 0, 0, 0.5);
+  padding: 0px 20px;
+  background-color: yellowgreen;
+}
