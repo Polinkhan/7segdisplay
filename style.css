@@ -90,6 +90,7 @@
 .display {
   border: 10px double black;
   border-radius: 7px;
+  font-size: 2.5rem;
   padding: 5px 0px;
   width: 490px;
   margin: auto;
