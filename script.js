@@ -14,13 +14,13 @@ function display() {
 function fade_in() {
   $("#r_btn").css("height", "70px");
   $("#r_btn").css("font-size", "1.8rem");
-  $("#r_btn").css("transition", "1s");
+  $("#r_btn").css("transition", ".5s");
 }
 
 function fade_out() {
   $("#r_btn").css("height", "0px");
   $("#r_btn").css("font-size", "0rem");
-  $("#r_btn").css("transition", "1s");
+  $("#r_btn").css("transition", ".5s");
 }
 
 $(document).ready(function () {
