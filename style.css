@@ -16,6 +16,7 @@
   margin: 0.5rem auto;
   text-align: center;
 }
+
 #a,
 #g,
 #d,
@@ -88,28 +89,42 @@
 }
 
 .display {
+  position: relative;
+  height: 100px;
   border: 10px double black;
   border-radius: 7px;
-  font-size: 2rem;
-  padding: 5px 0px;
   width: 490px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 3rem;
+}
+
+.print {
+  width: 100%;
   text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 #reset{
+  height: 80px;
   position: relative;
+  width: 500px;
+  margin: 0 auto;
 }
 
 #r_btn{
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   height: 0px;
   font-size: 0px;
+  background-color: white;
   outline: none;
   border: none;
   border-radius: 7%;
