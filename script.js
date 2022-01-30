@@ -8,7 +8,7 @@ $("#form").submit(function (e) {
 
 function display() {
   hex = parseInt(val, 2).toString(16).toUpperCase();
-  $(".display").text("[BINARY:" + val + "]  [HEX:" + hex + "]");
+  $(".print").text("[BINARY:" + val + "]  [HEX:" + hex + "]");
 }
 
 function fade_in() {
